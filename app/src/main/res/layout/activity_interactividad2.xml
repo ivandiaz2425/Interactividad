@@ -18,8 +18,15 @@
             android:layout_height="wrap_content"
             android:text="@string/str_btn2"
             android:layout_centerInParent="true"
-            android:onClick="goActivityUno"/>
+            />
     </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end"/>
 
 </android.support.design.widget.CoordinatorLayout>
 
