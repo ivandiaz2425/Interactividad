@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Interactividad</string>
+    <string name="str_btn1">Activity1</string>
+    <string name="str_btn2">Activity2</string>
 </resources>

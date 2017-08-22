@@ -5,16 +5,28 @@
     android:id="@+id/activity_interactividad"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.aula_7.interactividad.Interactividad">
+    tools:context="com.example.aula_7.interactividad.Interactividad"
+    android:background="@android:color/holo_green_dark"
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         
         <Button
-            android:layout_width=""
-            android:layout_height="" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_btn1"
+            android:layout_centerInParent="true"
+            android:onClick="goActivityDos"/>
     </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end"/>
+
     
 </android.support.design.widget.CoordinatorLayout>
 
